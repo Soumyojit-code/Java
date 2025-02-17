@@ -1,4 +1,4 @@
-//type custing
+//creat by Soumyojit
 class A
 {
     static void  m1()
@@ -12,7 +12,6 @@ class B extends A
     {
         System.out.println("class B");
     }
-
 }
 class C extends B
 {
@@ -21,8 +20,6 @@ class C extends B
         System.out.println("class C");
     }
 }
-
-
 public class Typecusting
 {
     public static void main(String[] args)
@@ -31,9 +28,5 @@ public class Typecusting
         c.m1();
         ((B)c).m1();
         ((A)(B)c).m1();
-
-
-
     }
-
 }
