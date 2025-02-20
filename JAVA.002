@@ -72,7 +72,7 @@ class Main
             System.out.println ("Fourth String Character at :"+temp+" position is :"+ str4.charAt(loop));
         }
 
-        str4.append(" Roy");
+        str4.append(" Banerjee");
         System.out.println ("Fourth StringBuffer (After Append): "+str4);
         len = str4.length();
         System.out.println();
