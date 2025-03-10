@@ -1,4 +1,5 @@
-          import java.util.Scanner;
+//Java Program To Perform addition, subtraction, Multiplication and Divisions using Thread  
+import java.util.Scanner;
              class  Addtion extends Thread
              {
                  private int a1,a2;
